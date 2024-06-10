@@ -1,0 +1,82 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+	 font-family: "Courier Prime", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+body {
+	background: url("img jpg/fondo 2.jpg") 0 0 no-repeat fixed;
+	background-size: cover;
+}
+#wrap-main {
+	width: 650px;
+	min-height: 100vh;
+	background-color: rgba(163,125,226,1.00);
+	padding: 20px;
+	margin: auto;
+}
+h1 { 
+	color:white;
+    text-align: center;
+    margin: 0 0 20px 0;
+    text-shadow: 2px 2px 6 px rgba(0, 0, 0, 0.8);
+}
+span {
+	font-family: "Merryweather", serif;
+	font-weight: 700;
+	font-style: normal;
+}
+a{
+		color:white;
+			}
+ul, ol, li {
+		color:black;
+	    padding-left: 20px;
+			}
+h2{
+		color:white;
+			}
+ .video-container, video {
+	width: 100%;
+	margin-top: 20px
+}
+
+figcaption {
+	font-style: oblique;
+	font-weight: lighter;
+	color:white;
+	margin:0 auto 20px;
+}
+
+nav {
+	text-align:center;
+}
+nav a{
+	display: inline-block;
+	margin: 0 10px;
+	padding: 10px 20px;
+	background-color: rgba(112,90,171,1.00);
+	text-decoration:none;
+	color: rgba(255,255,255,1.00);
+	border-radius: 5px;
+}
+#footer {
+	background-color: #FFFFFF;
+    color: #000000;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    columns: 1;
+
+}
+#banner.content h1{
+	position: relative;
+	top: 50px;
+	width: 400px;
+	margin: 0 auto;
+	border: 3px white solid;
+}
